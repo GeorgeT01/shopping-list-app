@@ -1,5 +1,5 @@
 # shopping-list-app
-A project with Implementation of a shopping list app. It consist some common operations like create, edit , delete, search and view operations.
+A project with Implementation of a simple shopping list app. It consist some common operations like create, edit , delete, search and view operations.
 
 # Built With
 JAVA
