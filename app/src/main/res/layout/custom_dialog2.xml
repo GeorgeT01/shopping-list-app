@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/curve_shap"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Are you sure you want to clear list?"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/roboto" />
+    <TextView
+        android:id="@+id/dialogMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="All items will be deleted"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        app:fontFamily="@font/roboto" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#c5c5c5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_cancel"
+            android:clickable="true"
+            android:text="No"
+            android:textColor="#2a6bfd"
+            android:fontFamily="@font/roboto"
+            android:textAllCaps="false"/>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="40dp"
+            android:background="#c5c5c5"/>
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_ok"
+            android:clickable="true"
+            android:text="Yes"
+            android:textColor="#ff4444"
+            android:fontFamily="@font/roboto"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>
